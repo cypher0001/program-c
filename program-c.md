@@ -308,7 +308,7 @@ return 0;
 15 x 9 = 135
 15 x 10 = 150
 ```
-## 11:To convert Fahrehnite to Celcius
+## 12:To convert Fahrehnite to Celcius
 ```
 //to convert fahrehnite to celcius
 #include<stdio.h>
@@ -327,7 +327,7 @@ return 0;
 Enter temp in fahrehnite :450
 The celcius value is:232.222229
 ```
-## 12: To show the table range 
+## 13: To show the table range 
 ```
 //To show a range of table upto user input
 #include<stdio.h>
@@ -364,7 +364,7 @@ table of:5
 5 x 29 = 145
 5 x 30 = 150
 ```
-## 13:To show even table
+## 14:To show even table
 ```
 //To show only even table
 #include<stdio.h>
@@ -408,7 +408,7 @@ tabel of:16
 16 X 19=304
 16 X 20=320
 ```
-## 14: To show result of operands
+## 15: To show result of operands
 ```
 //To show results using operands(+,-,*,%,/)
 #include<stdio.h>
@@ -445,7 +445,7 @@ enter operator[+ - % / *]: *
 enter second number:10
 The result is:200.00
 ```
-## 15:To call a patterns of face and calculator
+## 16:To call a patterns of face and calculator
 ```
 // call a pattern of face or calculator
              #include<stdio.h>
@@ -530,7 +530,7 @@ ___________________
 |        |        |
 |________|________|
 ```
-## 16:To convert fahrehnite to celcius and kelvin
+## 17:To convert fahrehnite to celcius and kelvin
 ```
   // To covert  fahrenheit to celsius and kelvin
                  #include<stdio.h>
@@ -552,7 +552,7 @@ celsius value is:232.22
 kelvin value is:505.37
 ```
 
-## 17:To show stars pattern
+## 18:To show stars pattern
 ```
  // TO show stars using loop 
 #include<stdio.h>
@@ -585,7 +585,7 @@ int main()
 *
 ```
  
- ## 18:To show factorial result
+ ## 20:To show factorial result
  ```
  //To show factorial of user input
 #include<stdio.h>
@@ -642,7 +642,7 @@ Enter the value upto pattern is shown:8
 * * * * * * * * 
 ```
 
-## 20:Matrix multipication
+## 21:Matrix multipication
  ```
 #include<stdio.h>
 int main()
@@ -722,6 +722,6 @@ NDM5MzddfQ==
 -->
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Mjk0NDM1MCwtMzU1ODQ5NjUxLDYxMD
-EzODY2MCwtMTUxNDc2MTk3LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTk1MDYzNjk1LC0zNTU4NDk2NTEsNjEwMT
+M4NjYwLC0xNTE0NzYxOTcsLTIwODg3NDY2MTJdfQ==
 -->
