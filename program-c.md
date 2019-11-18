@@ -445,7 +445,7 @@ enter operator[+ - % / *]: *
 enter second number:10
 The result is:200.00
 ```
-## 1:To call a patterns of face and calculator
+## 16:To call a patterns of face and calculator
 ```
 // call a pattern of face or calculator
              #include<stdio.h>
@@ -530,7 +530,7 @@ ___________________
 |        |        |
 |________|________|
 ```
-## 16:To convert fahrehnite to celcius and kelvin
+## 17:To convert fahrehnite to celcius and kelvin
 ```
   // To covert  fahrenheit to celsius and kelvin
                  #include<stdio.h>
@@ -552,7 +552,7 @@ celsius value is:232.22
 kelvin value is:505.37
 ```
 
-## 17:To show stars pattern
+## 18:To show stars pattern
 ```
  // TO show stars using loop 
 #include<stdio.h>
@@ -585,7 +585,7 @@ int main()
 *
 ```
  
- ## 18:To show factorial result
+ ## 19:To show factorial result
  ```
  //To show factorial of user input
 #include<stdio.h>
@@ -608,7 +608,7 @@ return 0;
 Enter the factorial of:5
 5 X 4 X 3 X 2 X 1 X = 120
 ```
- ## 19:To show stars pattern 
+ ## 20:To show stars pattern 
  ```
  //to show star pattern for n numbers
 #include<stdio.h>
@@ -642,7 +642,7 @@ Enter the value upto pattern is shown:8
 * * * * * * * * 
 ```
 
-## 20:Matrix multipication
+## 21:Matrix multipication
  ```
 #include<stdio.h>
 int main()
@@ -722,7 +722,7 @@ NDM5MzddfQ==
 -->
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQyMzQwNDUsMTk4NTg2OTYzMSwxOT
+eyJoaXN0b3J5IjpbLTE1MzA1MDQxMjksMTk4NTg2OTYzMSwxOT
 UwNjM2OTUsLTM1NTg0OTY1MSw2MTAxMzg2NjAsLTE1MTQ3NjE5
 NywtMjA4ODc0NjYxMl19
 -->
