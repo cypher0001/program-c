@@ -8,8 +8,8 @@
   
   
      
-    Name - Gurkirat singh 
-    Branch - Information Technology
+    Name-Gurkirat singh 
+    Branch-InformationTechnology
     Section - A2 
     Roll Number - 1921033 
     
@@ -722,6 +722,6 @@ NDM5MzddfQ==
 -->
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyODU4ODQ1LDYxMDEzODY2MCwtMTUxND
-c2MTk3LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTM1NTg0OTY1MSw2MTAxMzg2NjAsLTE1MT
+Q3NjE5NywtMjA4ODc0NjYxMl19
 -->
