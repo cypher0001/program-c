@@ -585,7 +585,7 @@ int main()
 *
 ```
  
- ## 20:To show factorial result
+ ## 18:To show factorial result
  ```
  //To show factorial of user input
 #include<stdio.h>
@@ -642,7 +642,7 @@ Enter the value upto pattern is shown:8
 * * * * * * * * 
 ```
 
-## 21:Matrix multipication
+## 20:Matrix multipication
  ```
 #include<stdio.h>
 int main()
@@ -722,7 +722,7 @@ NDM5MzddfQ==
 -->
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjk2OTY0NzksMTk4NTg2OTYzMSwxOT
+eyJoaXN0b3J5IjpbLTE4NjM2MDgyNzcsMTk4NTg2OTYzMSwxOT
 UwNjM2OTUsLTM1NTg0OTY1MSw2MTAxMzg2NjAsLTE1MTQ3NjE5
 NywtMjA4ODc0NjYxMl19
 -->
