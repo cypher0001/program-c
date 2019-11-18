@@ -197,7 +197,7 @@ Perimeter of square:16
 Area of square:16
 Volume of square:64
 ```
-## 7:To show puts value upto n number using loop
+## 8:To show puts value upto n number using loop
 ```
 // to show punishment using loop
  #include<stdio.h>
@@ -225,7 +225,7 @@ WORK HARD AND ACHIEVE SUCCESS
 WORK HARD AND ACHIEVE SUCCESS 
 WORK HARD AND ACHIEVE SUCCESS
 ```
-## 8:To show area,diameter,circumference of circle 
+## 9:To show area,diameter,circumference of circle 
 ```
    #include<stdio.h>
  int main()
@@ -247,7 +247,7 @@ diameter of circle is:12.000000
 circumference of circle:37.680000
 Area of circle:113.040001
 ```
-## 9:To find area and volume of rectangle
+## 10:To find area and volume of rectangle
 ```
 //find area and volume of rectangle
 #include<stdio.h>
@@ -277,7 +277,7 @@ The area of rectangle is:12
 The volume is :48
 ```
  
- ## 10:To represent a table of user input 
+ ##  11 .To represent a table of user input 
  
  ```
   // To represent a table of user input  number
@@ -722,6 +722,6 @@ NDM5MzddfQ==
 -->
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTg0OTY1MSw2MTAxMzg2NjAsLTE1MT
-Q3NjE5NywtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTE1Mjk0NDM1MCwtMzU1ODQ5NjUxLDYxMD
+EzODY2MCwtMTUxNDc2MTk3LC0yMDg4NzQ2NjEyXX0=
 -->
