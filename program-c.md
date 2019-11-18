@@ -8,10 +8,10 @@
   
   
      
-    Name-Gurkirat singh 
+    Name-Jaskaran singh 
     Branch-InformationTechnology
     Section - A2 
-    Roll Number - 1921033 
+    Roll Number - 1921048
     
     # My C programes 
 
@@ -722,6 +722,7 @@ NDM5MzddfQ==
 -->
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDYzNjk1LC0zNTU4NDk2NTEsNjEwMT
-M4NjYwLC0xNTE0NzYxOTcsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTk4NTg2OTYzMSwxOTUwNjM2OTUsLTM1NT
+g0OTY1MSw2MTAxMzg2NjAsLTE1MTQ3NjE5NywtMjA4ODc0NjYx
+Ml19
 -->
