@@ -144,7 +144,7 @@ The  number is even
 Enter a number:7
 The number is odd
 ```
-## 6:To show the size of int,float,char,double,long,short
+## 5:To show the size of int,float,char,double,long,short
 ```
  // size of int, float, char, double, long, short
 #include<stdio.h>
@@ -167,7 +167,7 @@ double:8
 short:2
 long:8
 ```
-## 7:To show area,perimeter,volume of square
+## 6:To show area,perimeter,volume of square
 ```
    
  //Area,premiter,volume of square
@@ -197,7 +197,7 @@ Perimeter of square:16
 Area of square:16
 Volume of square:64
 ```
-## 8:To show puts value upto n number using loop
+## 7:To show puts value upto n number using loop
 ```
 // to show punishment using loop
  #include<stdio.h>
@@ -225,7 +225,7 @@ WORK HARD AND ACHIEVE SUCCESS
 WORK HARD AND ACHIEVE SUCCESS 
 WORK HARD AND ACHIEVE SUCCESS
 ```
-## 9:To show area,diameter,circumference of circle 
+## 8:To show area,diameter,circumference of circle 
 ```
    #include<stdio.h>
  int main()
@@ -247,7 +247,7 @@ diameter of circle is:12.000000
 circumference of circle:37.680000
 Area of circle:113.040001
 ```
-## 10:To find area and volume of rectangle
+## 9:To find area and volume of rectangle
 ```
 //find area and volume of rectangle
 #include<stdio.h>
@@ -277,7 +277,7 @@ The area of rectangle is:12
 The volume is :48
 ```
  
- ##  11 .To represent a table of user input 
+ ##  10 .To represent a table of user input 
  
  ```
   // To represent a table of user input  number
@@ -308,7 +308,7 @@ return 0;
 15 x 9 = 135
 15 x 10 = 150
 ```
-## 12:To convert Fahrehnite to Celcius
+## 11:To convert Fahrehnite to Celcius
 ```
 //to convert fahrehnite to celcius
 #include<stdio.h>
@@ -327,7 +327,7 @@ return 0;
 Enter temp in fahrehnite :450
 The celcius value is:232.222229
 ```
-## 13: To show the table range 
+## 12: To show the table range 
 ```
 //To show a range of table upto user input
 #include<stdio.h>
@@ -364,7 +364,7 @@ table of:5
 5 x 29 = 145
 5 x 30 = 150
 ```
-## 14:To show even table
+## 13:To show even table
 ```
 //To show only even table
 #include<stdio.h>
@@ -408,7 +408,7 @@ tabel of:16
 16 X 19=304
 16 X 20=320
 ```
-## 15: To show result of operands
+## 14: To show result of operands
 ```
 //To show results using operands(+,-,*,%,/)
 #include<stdio.h>
@@ -445,7 +445,7 @@ enter operator[+ - % / *]: *
 enter second number:10
 The result is:200.00
 ```
-## 16:To call a patterns of face and calculator
+## 15:To call a patterns of face and calculator
 ```
 // call a pattern of face or calculator
              #include<stdio.h>
@@ -530,7 +530,7 @@ ___________________
 |        |        |
 |________|________|
 ```
-## 17:To convert fahrehnite to celcius and kelvin
+## 16:To convert fahrehnite to celcius and kelvin
 ```
   // To covert  fahrenheit to celsius and kelvin
                  #include<stdio.h>
@@ -552,7 +552,7 @@ celsius value is:232.22
 kelvin value is:505.37
 ```
 
-## 18:To show stars pattern
+## 17:To show stars pattern
 ```
  // TO show stars using loop 
 #include<stdio.h>
@@ -722,7 +722,7 @@ NDM5MzddfQ==
 -->
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTg2OTYzMSwxOTUwNjM2OTUsLTM1NT
-g0OTY1MSw2MTAxMzg2NjAsLTE1MTQ3NjE5NywtMjA4ODc0NjYx
-Ml19
+eyJoaXN0b3J5IjpbLTEwNjk2OTY0NzksMTk4NTg2OTYzMSwxOT
+UwNjM2OTUsLTM1NTg0OTY1MSw2MTAxMzg2NjAsLTE1MTQ3NjE5
+NywtMjA4ODc0NjYxMl19
 -->
