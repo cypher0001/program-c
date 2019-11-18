@@ -8,7 +8,7 @@
   
   ---
      
-     Name - Gurkirat singh Branch - information Section - C2 Roll Number - 1915353 
+     Name - Gurkirat singh Branch - Information Technology Section - A2 Roll Number - 1921033 
     
 <h3>
 1.Program to print your name using puts:
@@ -1353,5 +1353,5 @@ printf("\n");
 <img src="https://i.imgur.com/x6I7LBQ.png"
      >
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjU3ODM3NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE1MTQ3NjE5NywtMjA4ODc0NjYxMl19
 -->
