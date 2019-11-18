@@ -6,9 +6,13 @@
 <h3><b>Guru Nanak Dev Engineering College
     ESC-18104/18105 Programming for Problem Solving</b>
   
-  ---
+  
      
-     Name - Gurkirat singh Branch - Information Technology Section - A2 Roll Number - 1921033 
+    Name - Gurkirat singh 
+    Branch - Information Technology
+    Section - A2 
+    Roll Number - 1921033 
+    
     # My C programes 
 
 ## 1:To print hello world
@@ -718,6 +722,6 @@ NDM5MzddfQ==
 -->
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwMTM4NjYwLC0xNTE0NzYxOTcsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbODcyODU4ODQ1LDYxMDEzODY2MCwtMTUxND
+c2MTk3LC0yMDg4NzQ2NjEyXX0=
 -->
