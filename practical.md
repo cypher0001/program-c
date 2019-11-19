@@ -8,10 +8,10 @@
   
   
      
-    Name- Gurkirat singh 
+    Name- Harjot singh 
     Branch-InformationTechnology
     Section - A2 
-    Roll Number - 1921033
+    Roll Number - 1921035
     
     # My C programes 
 
@@ -726,5 +726,5 @@ eyJoaXN0b3J5IjpbLTE1MzA1MDQxMjksMTk4NTg2OTYzMSwxOT
 UwNjM2OTVdfQ==
 -->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5MDc0MTMzXX0=
+eyJoaXN0b3J5IjpbLTE2OTkwNzU2NzQsNDI5MDc0MTMzXX0=
 -->
