@@ -1,105 +1,17 @@
-
-  
-<center><img src="https://i.imgur.com/EZtECRw.png"></center>
-
-
-
-<h3><b>Guru Nanak Dev Engineering College
-    ESC-18104/18105 Programming for Problem Solving</b>
-  
-  
-     
-    Name- Gurkirat singh
-    Branch-InformationTechnology
-    Section - A2 
-    Roll Number - 1921033
-    
+![enter image description here](https://lh3.googleusercontent.com/vVnH6BXe-LhJsPfOsgew6B8F71aXmb7rVa7Z6HBNYyRpZ_pcReGF2OtL8iwd2MX3qC6zUX5Axfwm)
+## ***Submitted By :***
+##### ***Name : Kunwar ***           
+##### ***Roll No. : 1921058***
+##### ***Branch : Information Tecnology(I.T)***
+##### ***Section  : I.T. A2***
 
 
-## 1:Write a program to check whether a no. is even/odd
-
-```
-//To check whether a no. is even/odd
-#include<stdio.h>
-int main()
-{                     
- int a,b;
-printf("enter the no.=");
-scanf("%d",&a);
-b=a%2;
-if(b==0)
-{
-printf("entered no. is even\n");
-}
-else
-{
-printf("entered no. is odd\n");
-}
-return 0;
-
-}
-```
-**OUTPUT:**
-``` 
- enter the no.=5
- entered no. is odd
-
-```
-## 2:Write a program to print only even numbers table from given range:
-
-```
- 
-#include<stdio.h>
-  int main()
-{
-int a,b,c,d;
-printf("enter the starting and ending no.");
-scanf("%d %d",&a,&b);
-for(c=a;c<=b;c++)
-{
-if(c%2==0)
-{
-for(d=1;d<=10;d++)
-{
-printf("\n %dX%d=%d",c,d,c*d);
-}
-}
-}
-return 0;
-}
-```
-**OUTPUT:**
-```
-enter the starting and ending no.2
-5
-
- 2X1=2
- 2X2=4
- 2X3=6
- 2X4=8
- 2X5=10
- 2X6=12
- 2X7=14
- 2X8=16
- 2X9=18
- 2X10=20
- 4X1=4
- 4X2=8
- 4X3=12
- 4X4=16
- 4X5=20
- 4X6=24
- 4X7=28
- 4X8=32
- 4X9=36
- 4X10=40
- ```
-
-## 3:Write a program to find sum of two numbers
+# My C programes
+## 1:To find sum of two numbers
 ```
 
-     
-  #include<stdio.h>
+     // to find sum of two numbers
+     #include<stdio.h>
 int main()
 {                                                                                      
  int a;
@@ -117,7 +29,196 @@ Enter two numbers to get sum:45 55
  
 The result is :45 + 55= 100
 ```
-## 4:Sum and average of numbers
+## 2:To print hello world
+
+```
+//To print  hello world
+#include<stdio.h>
+int main()
+{                     
+ printf("\nHello world\n");
+}
+```
+**OUTPUT:**
+``` 
+ Hello world
+```
+## 3:to print face
+```
+/ / To print face
+#include<stdio.h>
+int a();
+int b();
+int c();
+int d();
+int main()
+{
+a();
+b();
+c();
+d();
+}
+int a()
+{
+puts(" GURU NANAK DEV ENGINEERING COLLEGE");
+}
+int b()
+{
+puts("DEPARTMENT OF INFORMATION TECHNOLOGY")
+}
+int c()
+{
+puts("___________________________");
+puts("|    xxxxxxxxxxxxxxx      |");
+puts("|    (   ^     ^   )      |");
+puts("|    (   0     0   )      |");
+puts("|     \\     |     /       |");
+puts("|      \\    =    /        |");
+puts("|       \\_______/         |");
+puts("|            |            |");
+puts("|____________|____________|");
+}
+int d()
+{
+puts("       KUNWAR ARORA");
+}
+}
+```
+**OUTPUT:**
+```
+ GURU NANAK DEV ENGINEERING COLLEGE
+DEPARTMENT OF INFORMATION TECHNOLOGY
+___________________________
+|    xxxxxxxxxxxxxxx      |
+|      (   ^     ^   )      |
+|      (   0     0   )      |
+|       \     |     /       |
+|        \    =    /        |
+|         \_______/         |
+|              |            |
+|____________|____________|
+       KUNWAR ARORA
+```
+## 4:To fill your information
+
+```
+  / /   To fill your information
+#include<stdio.h>
+
+  void info();
+  int main()
+  {
+     info();
+  }
+
+   void info()
+  {  char a[20];
+     int roll,age;
+     long int ph;
+   printf("\nEnter your information:\n");
+   printf("Name = ");
+    scanf("%s",a);
+  printf("\nRoll no=");
+scanf("%d",&roll);
+printf("\nAge = ");
+ scanf("%d",&age);
+ printf("\nPhone no.= ");
+ scanf("%ld",&ph);
+
+printf("\nThe name is %s\nYour roll no is %d\nMy phone number is %ld\n My age is %d\n",a,roll,ph,age);
+
+}
+```
+**OUTPUT:**
+```
+Enter your information:
+Name = kunwar
+
+Roll no=1921058
+
+Age = 18
+
+Phone no.= 9988988833
+
+The name is kunwar
+Your roll no is 1921058
+My phone number is 9988988833
+ My age is 18
+ ```
+## 5:To show area,perimeter,volume of square
+```
+   
+ / / Area,premiter,volume of square
+  #include<stdio.h>
+void square();
+int main()
+{     
+ square();
+ return 0;
+}                                    
+void square()
+{
+ int side;
+ printf("Enter the side of square:");
+ scanf("%d",&side);
+
+ printf("\nPerimeter of square:%d",4*side);
+ printf("\nArea of square:%d",side*side);
+ printf("\nVolume of square:%d\n",side*side*side);
+}
+```
+**OUTPUT**:
+```
+Enter the side of square:4
+
+Perimeter of square:16
+Area of square:16
+Volume of square:64
+```
+## 6:To print a table
+```
+#include<stdio.h>
+int main()
+{
+int a,b,c,d;
+printf("enter the starting no. and ending no. ");
+scanf("%d %d",&a,&b);
+for(c=a;c<=b;c++)
+{
+for(d=1;d<=10;d++)
+{
+printf("\n %d x %d=%d",c,d,c*d);
+}
+}
+return 0;
+}
+```
+**OUTPUT:**
+```
+enter the starting no. and ending no. 8 9
+
+ 8 x 1=8
+ 8 x 2=16
+ 8 x 3=24
+ 8 x 4=32
+ 8 x 5=40
+ 8 x 6=48
+ 8 x 7=56
+ 8 x 8=64
+ 8 x 9=72
+ 8 x 10=80
+ 9 x 1=9
+ 9 x 2=18
+ 9 x 3=27
+ 9 x 4=36
+ 9 x 5=45
+ 9 x 6=54
+ 9 x 7=63
+ 9 x 8=72
+ 9 x 9=81
+ 9 x 10=90
+ ```
+## 7:Sum and average of numbers
 ```
  // sum and average of number
 #include<stdio.h>
@@ -139,7 +240,26 @@ Enter five numbers:1 2 3 4 5
 The sum is:15
 The average is:3
 ```
-  ## 5:To find number is even or odd
+## 8:To convert fahrenheit to centigrade
+```
+#include<stdio.h>
+int main()
+{
+float  c,f;
+printf("Enter The Fahrenheit Value ");
+scanf("%f",&f);
+c=(f-32)*5/9;
+printf("Temprature in Centigrade=%f",c);
+return 0;
+}
+```
+**OUTPUT:**
+```
+Enter The Fahrenheit Value 97
+
+Temprature in Centigrade=36.111111
+```
+ ## 9:To find number is even or odd
   ```
        #include<stdio.h>
 int main()
@@ -155,147 +275,13 @@ int main()
 ```
 **OUTPUT**:
 ```
-Enter a number:4
+Enter a number:6
 The  number is even
 ```
 ***OR***
 ```
-Enter a number:7
+Enter a number:9
 The number is odd
-```
-## 6:Write a program to add two matrices
-```
-   #include <stdio.h>
-
-    int main()
-    {
-       int m, n, c, d, first[10][10], second[10][10], sum[10][10];
-
-       printf("Enter the number of rows and columns of matrix\n");
-       scanf("%d%d", &m, &n);
-       printf("Enter the elements of first matrix\n");
-
-       for (c = 0; c < m; c++)
-          for (d = 0; d < n; d++)
-             scanf("%d", &first[c][d]);
-
-       printf("Enter the elements of second matrix\n");
-
-       for (c = 0; c < m; c++)
-          for (d = 0 ; d < n; d++)
-             scanf("%d", &second[c][d]);
-
-       printf("Sum of entered matrices:-\n");
-       
-       for (c = 0; c < m; c++) {
-          for (d = 0 ; d < n; d++) {
-             sum[c][d] = first[c][d] + second[c][d];
-             printf("%d\t", sum[c][d]);
-          }
-          printf("\n");
-       }
-
-       return 0;
-    }
-
-```
-**OUTPUT**:
-```
-Enter the number of rows and columns of matrix
-2
-2
-Enter the elements of first matrix
-11
-12
-13
-13
-Enter the elements of second matrix
-11
-12
-13
-13
-Sum of entered matrices:-
-22      24
-26      26
-ls
-
-```
-## 7:Write a program to print given structure of face
-```
-   
-#include<stdio.h>
-int main()
-{
-puts("  xxxxxxxx  ");
-puts("  ( ^  ^ )  ");
-puts("  ( 0  0 )  ");
-puts("  \\  |  /   ");
-puts("   \\ - /    ");
-puts("    \\_/     ");
-}
-```
-**OUTPUT**:
-```
-  xxxxxxxx  
-  ( ^  ^ )  
-  ( 0  0 )  
-  \  |  /   
-   \ - /    
-    \_/     
-
-```
-## 8:Write a program to find factorial of a number with recursion
-```
-#include<stdio.h>
-int rec(int);
-int main()
-{
-int a,fact;
-printf("enter any number");
-scanf("%d",&a);
-fact=rec(a);
-printf("factorial value=%d\n",fact);
-return 0;
-}
-int rec(int x)
-{
-int f;
-if(x==1)
-return(1);
-else
-f=x*rec(x-1);
-return(f);
-}
-```
-**OUTPUT**:
-```
-enter any number3
-factorial value=6
-```
-## 9:Write a program to check whether a number is positive or negative
-```
-#include<stdio.h>
-int main()
-{
-int a;
-printf("enter any number =");
-scanf("%d",&a);
-if(a>0)
-{
-printf("the number is positive\n");
-}
-else
-{
-printf("the number is negative\n");
-}
-return 0;
-}
-```
-**OUTPUT**:
-```
-enter any number =6
-the number is positive
-
 ```
 ## 10:To find area and volume of rectangle
 ```
@@ -326,116 +312,8 @@ Enter height of rectangle:4
 The area of rectangle is:12
 The volume is :48
 ```
- 
- ##  11 .To represent a table of user input 
- 
- ```
-  // To represent a table of user input  number
- #include<stdio.h>
- int main()
- {
-    int i,j,k;
-  printf("Table of:");
-  scanf("%d",&j);
 
-   for(i=0;i<=10;i++)
-   printf("%d x %d = %d\n",j,i,j*i);
-
-return 0;
-}
-```
-**OUTPUT**:
-```Table of:15
-15 x 0 = 0
-15 x 1 = 15
-15 x 2 = 30
-15 x 3 = 45
-15 x 4 = 60
-15 x 5 = 75
-15 x 6 = 90
-15 x 7 = 105
-15 x 8 = 120
-15 x 9 = 135
-15 x 10 = 150
-```
-## 12:To convert Fahrehnite to Celcius
-```
-//to convert fahrehnite to celcius
-#include<stdio.h>
-int main(){
-float f,c;
-printf("Enter temp in fahrehnite :");
-scanf("%f",&f);
-c=((f-32)*5)/9;
-printf("The celcius value is:%f\n",c);
-
-return 0;
-}
-```
-**OUTPUT**:
-```
-Enter temp in fahrehnite :450
-The celcius value is:232.222229
-```
-## 13: To show the table range 
-```
-
-#include<stdio.h>
-int main()
-{
- int a,b,n;
- printf("table of:");
- scanf("%d",&a);
- printf("\n enter the starting value of range:");
- scanf("%d",&b);
- printf("\n enter the last value of range:");
- scanf("%d",&n);
- for(b;b<=n;b++)
- printf("%d x %d = %d\n",a,b,a*b);
- return 0;
- }
-```
-**OUTPUT**:
-```
-table of:5
-
- enter the starting value of range:20
-
- enter the last value of range:30
-5 x 20 = 100
-5 x 21 = 105
-5 x 22 = 110
-5 x 23 = 115
-5 x 24 = 120
-5 x 25 = 125
-5 x 26 = 130
-5 x 27 = 135
-5 x 28 = 140
-5 x 29 = 145
-5 x 30 = 150
-```
-## 14:Write a program to find factorial of a number without recursion
-```
-#include<stdio.h>
-int main()
-{
-int c,n,fact=1;
-printf("enter a number to calculate factorial ;\n");
-scanf("%d",&n);
-for(c=1;c<=n;c++)
-fact=fact*c;
-printf("factorial of %d=%d\n",n,fact);
-return 0;
-}
-```
-**OUTPUT**:
-```
-enter a number to calculate factorial ;
-3
-factorial of 3=6
-
-```
-## 15: To show result of operands
+## 11: To show result of operands
 ```
 //To show results using operands(+,-,*,%,/)
 #include<stdio.h>
@@ -472,30 +350,69 @@ enter operator[+ - % / *]: *
 enter second number:10
 The result is:200.00
 ```
-## 16:Write a program to print structe of calculator
-```
 
+## 12:Sum of two constants
+```
 #include<stdio.h>
-int main()
-{  
-puts(" _______________");
-puts("|               |");
-puts("|_______________|");
-puts("| 1 | 2 | 3 |   |");
-puts("|___|___|___|   |");
-puts("| 4 | 5 | 6 | + |");
-puts("|___|___|___|___|");
-puts("| 7 | 8 | 9 | - |");
-puts("|___|___|___|___|");
-puts("|     0     | * |");
-puts("|___________|___|");
+int main()                                                                       
+{
+   int a=100,b=120,c;
+   c = a+b;
+   printf("\na=100\na=120\nSum of a and b is :%d",c);
+   return 0;
 }
 ```
-**OUTPUT**:
-``` 
-_______________
-|               |
-|_______________|
+**OUTPUT:**
+```
+a=100
+b=120
+Sum of a and b is :220
+```
+## 13:To check wheather no is positive or not
+```
+#include<stdio.h>
+int main()
+{
+int a;
+printf("enter any number =");
+scanf("%d",&a);
+if(a>0)
+{
+printf("the number is positive\n");
+}
+else
+{
+printf("the number is negative\n");
+}
+return 0;
+}
+```
+**OUTPUT:**
+```
+enter any number =16
+
+the number is positive
+```
+## 14:To print calculator
+```
+#include<stdio.h>
+void main()
+{
+puts("\n\
+_________________\n\
+| 1 | 2 | 3 |   |\n\
+|___|___|___|   |\n\
+| 4 | 5 | 6 | + |\n\
+|___|___|___|___|\n\
+| 7 | 8 | 9 | - |\n\
+|___|___|___|___|\n\
+|     0     | * |\n\
+|___________|___|\n");
+}
+```
+**OUTPUT:**
+```
+_________________
 | 1 | 2 | 3 |   |
 |___|___|___|   |
 | 4 | 5 | 6 | + |
@@ -505,117 +422,228 @@ _______________
 |     0     | * |
 |___________|___|
 ```
-## 17:To convert fahrehnite to celcius and kelvin
+## 15:To show stars pattern
 ```
-  // To covert  fahrenheit to celsius and kelvin
-                 #include<stdio.h>
- int main()
- {
-  float a,b,c;
-  printf("Enter a fahrenheit value:");
-  scanf("%f",&a);
-b=((a-32.00)*5.00)/9.00;
- printf("celsius value is:%.2f\n",b);
-
- printf("kelvin value is:%.2f\n",c=b+273.15);
-  return 0;} 
-```
-**OUTPUT**:
-```
-Enter a fahrenheit value:450
-celsius value is:232.22
-kelvin value is:505.37
-```
-
-## 18:Write a program to print values of an array
-```
+ // TO show stars using loop 
 #include<stdio.h>
 int main()
-{
-int n[10],i,j;
-for(i=0;i<10;i++)
-n[i]=i+100;
-
-
-for(j=0;j<10;j++)
-printf("element[%d]=%d\n",j,n[j]);
-
-return 0;
-}
-
+{ int i,j,k;
+ printf("Enter the no. to show pattern:");
+ scanf("%d",&k);
+ 
+  for(i=k;i>=1;i--)
+ {
+  for(j=i;j>=1;j--)
+ {
+  printf("* ");
+ }
+ printf("\n");
+ }
+ return 0;
+ }
  ```
  **OUTPUT**:
  ```
-element[0]=100
-element[1]=101
-element[2]=102
-element[3]=103
-element[4]=104
-element[5]=105
-element[6]=106
-element[7]=107
-element[8]=108
-element[9]=109
-
+ Enter the no. to show pattern:8
+* * * * * * * * 
+* * * * * * * 
+* * * * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+*
 ```
- 
- ## 19:Write a program to swap two numbers
+ ## 16:To show stars pattern 
  ```
-#include<stdio.h>
-int swap(int a,int b);
-
-int main()
-{
-int a,b;
-printf("please enter 2 integer values a and b:\n");
-scanf("%d %d",&a,&b);
-swap(a,b);
-
-}
-int swap(int a,int b)
-{
-//b=a;
-
-a=a+b;
-//a=b;
-b=a-b;
-a=a-b;
-printf("value of a is:%d\n",a);
-printf("value of b is:%d\n",b);
-}
-```
-**OUTPUT**:
-```
-please enter 2 integer values a and b:
-5
-6
-value of a is:6
-value of b is:5
-
-```
- ## 20: Write a program to show stars pattern 
- ```
+ //to show star pattern for n numbers
 #include<stdio.h>
 int main()
 {
-puts("*");
-puts("**");
-puts("****");
-puts("*****");
+ int i,j,k;
+ printf("Enter the value upto pattern is shown:");
+ scanf("%d",&k);
+
+ for(i=1;i<=k;i++)
+{
+  for(j=1;j<=i;j++)
+{
+  printf("* ");
+ }
+ printf("\n");
+ }
+ return 0;
 }
 ```
 **OUTPUT**:
 ```
 Enter the value upto pattern is shown:8
 * 
-** 
-*** 
-**** 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * * * 
+* * * * * * * 
+* * * * * * * * 
+```
+ ## 17:To show factorial result
+ ```
+ //To show factorial of user input
+#include<stdio.h>
+int main()
+{
+ int a,result=1;
+ printf("Enter the factorial of:");
+ scanf("%d",&a);
+ for(int i=a;i>=1;i--)
+{
+printf("%d X ",i);
+result=result*i;
+}
+printf("= %d\n",result);
+return 0;
+}
+```
+**OUTPUT**:
+```
+Enter the factorial of:5
+5 X 4 X 3 X 2 X 1 X = 120
+```
+## 18:To show puts value upto n number using loop
+```
+// to show punishment using loop
+ #include<stdio.h>
+ int main()
+ {
+ int i,a;
+ printf("Enter the number upto punishment is shown:");
+ scanf("%d",&a);
+  for(i=1;i<=a;i++)
+puts("RISKING IS BETTER THEN REGRATTING ");
+return 0;
+}
+```
+**OUTPUT**:
+```
+Enter the number upto punishment is shown:10
+RISKING IS BETTER THEN REGRATTING
+RISKING IS BETTER THEN REGRATTING
+RISKING IS BETTER THEN REGRATTING
+RISKING IS BETTER THEN REGRATTING
+RISKING IS BETTER THEN REGRATTING
+RISKING IS BETTER THEN REGRATTING
+RISKING IS BETTER THEN REGRATTING
+RISKING IS BETTER THEN REGRATTING
+RISKING IS BETTER THEN REGRATTING
+RISKING IS BETTER THEN REGRATTING
+```
+## 19:To show the size of int,float,char,double,long,short
+```
+ // size of int, float, char, double, long, short
+#include<stdio.h>
+int main()
+{                                   
+ printf("Integer:%d\n",sizeof(int));
+ printf("float:%d\n",sizeof(float));
+ printf("character:%d\n",sizeof(char));
+ printf("double:%d\n",sizeof(double));
+ printf("short:%d\n",sizeof(short));
+ printf("long:%d\n",sizeof(long));
+ }
+```
+**OUTPUT**:
+```
+Integer:4
+float:4
+character:1
+double:8
+short:2
+long:8
+```
+## 20:Matrix multipication
+ ```
+#include<stdio.h>
+int main()
+{
+int sum=0,m,n,p,q,c,d,k;
+int first[10][10], second[10][10], multiply[10][10];
+// for matrix 1
+printf("Enter the number of rows and column of first matrix:\n");
+scanf("%d %d",&m,&n);
+printf("Enter elements of first matrix:\n");
 
+for(c=0;c<m;c++)
+ for(d=0;d<n;d++)
+  scanf("%d",&first[c][d]);
+// for second matrix
+printf("Enter the number of rows and columns of second matrix:\n");
+scanf("%d %d",&p,&q);
+
+if(n!=p){
+printf("matrix multipication cannot be possible !!!!\n");}
+
+else{
+printf("Enter the elements of second matrix:\n");
+for(c=0;c<p;c++)
+ for(d=0;d<q;d++)
+  scanf("%d",&second[c][d]);
+
+for(c=0;c<m;c++)
+{
+ for(d=0;d<q;d++)
+{
+  for(k=0;k<p;k++)
+{                             
+  sum = sum + first[c][k] * second[k][d];
+  }
+   multiply[c][d] = sum;
+ sum =0;
+}
+}
+
+  printf("product of the matrix:\n");
+  
+  for(c=0;c<m;c++)
+{
+  for(d=0;d<q;d++)
+   printf("%d\t",multiply[c][d]);
+   printf("\n");
+}
+}                             
+ return 0;
+ }
+ ```
+ **OUTPUT**:
+ ```
+ Enter the number of rows and column of first matrix:
+2 2
+Enter elements of first matrix:
+3 4
+5 6
+Enter the number of rows and columns of second matrix:
+2 2
+Enter the elements of second matrix:
+1 2
+3 4
+product of the matrix:
+15      22
+23      34
 ```
 
 
 
+
+
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzY0MDcwMDJdfQ==
+eyJoaXN0b3J5IjpbMTE3MjkwNTU4MSwxODMwMzc3MjE4LDc4MT
+QzMDgzLC0xMTUzNjY3NDI3LDE3NTU3NTYyMzgsODM5MTA0ODUs
+NTcyNzQ2ODAzLDE2ODg3MzMwMjUsLTExNTgzOTQ4MDEsLTE3OT
+cyNTcyNDUsLTUxNjczOTY0OCwtMzYyMjc4NzQyLC0xOTY2Njg4
+MDgzLDE0MzM4MDA5MjgsNzAzNzQ5OTI5XX0=
+-->
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3MDIyMTUyMCwtMTgzNjQwNzAwMl19
 -->
